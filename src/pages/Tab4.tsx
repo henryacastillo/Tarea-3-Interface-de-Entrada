@@ -11,15 +11,11 @@ const Tab4: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-
       <IonButton color="success">Buscar</IonButton>
-
       <IonItem>
-            <IonLabel position="fixed">Buscador</IonLabel>
+            <IonLabel position="fixed">Búsqueda</IonLabel>
             <IonInput value="" ></IonInput>
       </IonItem>
- 
-      
       </IonContent>
     </IonPage>
   );
